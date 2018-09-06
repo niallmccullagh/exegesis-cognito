@@ -66,7 +66,7 @@ function mapIdToken(token: any): any {
     };
 }
 
-function formatScopes(scope :string){
+function formatScopes(scope :string) {
     if(scope) {
         return scope.split(' ');
     }
