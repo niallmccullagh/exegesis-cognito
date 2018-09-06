@@ -1,0 +1,62 @@
+{
+  "name": "exegesis-cognito",
+  "version": "0.0.1",
+  "description": "AWS Cognito authentication for exegesis",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist coverage",
+    "build": "tsc",
+    "precommit:test": "npm run build && lint-staged && npm run precommit:unittest",
+    "test": "npm run build && npm run lint && npm run test:unittest",
+    "test:unittest": "tsc -p test && nyc mocha 'test/**/*.@(ts|js)'",
+    "precommit:unittest": "tsc -p test && mocha --reporter progress 'test/**/*.@(ts|js)'",
+    "lint": "npm run lint:source && npm run lint:tests",
+    "lint:source": "tslint -c tslint.json -t stylish 'src/**/*.ts'",
+    "lint:tests": "tslint -c test/tslint.json -t stylish 'test/**/*.ts'",
+    "lint:markdown": "markdownlint src/**/*.md *.md"
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "tslint -c tslint.json -t stylish"
+    ],
+    "test/**/*.ts": [
+      "tslint -c test/tslint.json -t stylish"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niallmccullagh/exegesis-cognito.git"
+  },
+  "keywords": [
+    "exegesis",
+    "cognito"
+  ],
+  "author": "Niall McCullagh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niallmccullagh/exegesis-cognito/issues"
+  },
+  "homepage": "https://github.com/niallmccullagh/exegesis-cognito#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "exegesis": "^1.0.5",
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^7.2.2",
+    "markdownlint-cli": "^0.13.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "promise-breaker": "^4.1.11",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/debug": "0.0.30",
+    "@types/jsonwebtoken": "^7.2.8",
+    "debug": "^3.1.0",
+    "jsonwebtoken": "^8.3.0",
+    "jwk-to-pem": "^2.0.0"
+  }
+}
