@@ -27,6 +27,11 @@
       "tslint -c test/tslint.json -t stylish"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit:test"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/niallmccullagh/exegesis-cognito.git"
