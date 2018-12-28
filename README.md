@@ -3,7 +3,8 @@
 [![NPM version](https://badge.fury.io/js/exegesis-cognito.svg)](https://www.npmjs.com/package/exegesis-cognito)
 [![Build Status](https://travis-ci.org/niallmccullagh/exegesis-cognito.svg)](https://travis-ci.org/niallmccullagh/exegesis-cognito)
 [![Coverage Status](https://coveralls.io/repos/github/niallmccullagh/exegesis-cognito/badge.svg?branch=master)](https://coveralls.io/github/niallmccullagh/exegesis-cognito?branch=master)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) 
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fniallmccullagh%2Fexegesis-cognito.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fniallmccullagh%2Fexegesis-cognito?ref=badge_shield)
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/niallmccullagh/exegesis-cognito.svg)](https://greenkeeper.io/)
 
 This package provides authentication of AWS cognito tokens in Exegesis requests.
@@ -129,3 +130,7 @@ curl -X GET \
   'http://localhost:3000/things' \
   -H 'Authorization: Bearer eyJraWQiOiJpaGZYSVQ4Uk4yeFwvQW15UVo0Z2FUdEw5T3ZqQVpQa3RUcHY4SUpTbWttaz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJiYTViY2Y3Mi00YjIwLTRjMDYtYmM2Yi1mZmM3MTBhZGIyNDQiLCJhdWQiOiIyNzh2b2EwY3UzM2Mxa3VlODJyYTYycTY1cSIsImNvZ25pdG86Z3JvdXBzIjpbIm15Z3JvdXAiXSwiZW1haWxfdmVyaWZpZWQiOnRydWUsImV2ZW50X2lkIjoiMzI4NDRkNDgtYjFkZC0xMWU4LWE0NzQtMDVhN2YwNzQzYmE3IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE1MzYyNDI0MjIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX1RFU1QiLCJjb2duaXRvOnVzZXJuYW1lIjoiamFuZSIsImV4cCI6MTUzNjI0NjAyMiwiaWF0IjoxNTM2MjQyNDIyLCJlbWFpbCI6ImphbmVAZC5vZSJ9.IdZV1F0MxEU0eC_6Qe_98EjgMSgYEGhP-mwqZtzQb4L8U1jOw-hnK4J1REChsaOatffE-aOJ4uoLV4oPYedRqnX4ABJ9XueN3lWfcZHc_DE2RTvDuEAV7hHoNTZwwn_mgaaYwLNMMOJeciXu3iM7PeT7xJAjdCxcdczZi1hPpqBc9Yx9wM7EMHyEo5klov3zRPJyvFPEpQPgpG1TjNkuvFwcl848YaXQDdlS9rXtTOySBVQu913e3i25VBnxZGxeHpFO3mmUomefOprDEvZpBSPg3-Di4F2-vKDzIl1OT98J8GayrJnD39O1TMUdiW-ApZKBFydtJtqvydQoVmEo_g'
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fniallmccullagh%2Fexegesis-cognito.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fniallmccullagh%2Fexegesis-cognito?ref=badge_large)
