@@ -57,7 +57,7 @@
     "husky": "^1.0.0-rc.13",
     "lint-staged": "^8.0.0",
     "markdownlint-cli": "^0.14.0",
-    "mocha": "^5.2.0",
+    "mocha": "^6.0.0",
     "nyc": "^13.0.1",
     "promise-breaker": "^4.1.11",
     "semantic-release": "^15.9.12",
@@ -66,7 +66,7 @@
     "typescript": "^3.0.3"
   },
   "dependencies": {
-    "@types/debug": "0.0.31",
+    "@types/debug": "4.1.0",
     "@types/jsonwebtoken": "^7.2.8",
     "debug": "^4.0.0",
     "jsonwebtoken": "^8.3.0",
