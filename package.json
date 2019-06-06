@@ -67,7 +67,7 @@
   },
   "dependencies": {
     "@types/debug": "4.1.0",
-    "@types/jsonwebtoken": "^7.2.8",
+    "@types/jsonwebtoken": "^8.3.1",
     "debug": "^4.0.0",
     "jsonwebtoken": "^8.3.0",
     "jwk-to-pem": "^2.0.0"
