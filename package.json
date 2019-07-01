@@ -55,7 +55,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "exegesis": "^2.0.0",
     "husky": "^2.0.0",
-    "lint-staged": "^8.0.0",
+    "lint-staged": "^9.0.0",
     "markdownlint-cli": "^0.17.0",
     "mocha": "^6.0.0",
     "nyc": "^14.0.0",
