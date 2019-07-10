@@ -55,6 +55,8 @@ function mapAccessToken(token: any): any {
         username: token["cognito:username"],
         email_verified: token.email_verified,
         email: token.email,
+        phone_number_verified: token.phone_number_verified,
+        phone_number: token.phone_number,
         roles: token["cognito:groups"],
     };
 }
