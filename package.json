@@ -50,7 +50,7 @@
     "@types/chai": "^4.1.4",
     "@types/mocha": "^7.0.0",
     "chai": "^4.1.2",
-    "commitizen": "^3.0.0",
+    "commitizen": "^4.0.0",
     "coveralls": "^3.0.2",
     "cz-conventional-changelog": "^3.0.0",
     "exegesis": "^2.0.0",
