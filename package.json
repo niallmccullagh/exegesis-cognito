@@ -52,7 +52,7 @@
     "chai": "^4.1.2",
     "commitizen": "^3.0.0",
     "coveralls": "^3.0.2",
-    "cz-conventional-changelog": "^2.1.0",
+    "cz-conventional-changelog": "^3.0.0",
     "exegesis": "^2.0.0",
     "husky": "^2.0.0",
     "lint-staged": "^8.0.0",
