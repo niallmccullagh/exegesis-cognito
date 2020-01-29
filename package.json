@@ -48,7 +48,7 @@
   "homepage": "https://github.com/niallmccullagh/exegesis-cognito#readme",
   "devDependencies": {
     "@types/chai": "^4.1.4",
-    "@types/mocha": "^5.2.5",
+    "@types/mocha": "^7.0.0",
     "chai": "^4.1.2",
     "commitizen": "^3.0.0",
     "coveralls": "^3.0.2",
