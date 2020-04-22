@@ -1,4 +1,4 @@
-import { verify, decode, VerifyOptions, JsonWebTokenError } from 'jsonwebtoken';
+import { verify, decode, VerifyOptions, Algorithm, VerifyErrors } from 'jsonwebtoken';
 import {
     AuthenticationSuccess,
     ExegesisPluginContext,
@@ -13,7 +13,7 @@ const log = debug('exegesis-cognito');
 
 export interface Options {
     jwks: Jwks;
-    algorithms?: string[];
+    algorithms?: Algorithm[];
     audience?: string | string[];
     clockTolerance?: number;
     issuer?: string | string[];
@@ -158,7 +158,7 @@ function createAuthenticator(options: Options) : Authenticator {
                 verify(token,
                     pem,
                     verifyOptions,
-                    (err: JsonWebTokenError, decoded: string | object) => {
+                    (err: VerifyErrors | null, decoded: object | undefined) => {
                         if (err) {
                             log('Failed to verify', err);
                             done(null, generateErrorResult(err.message));
