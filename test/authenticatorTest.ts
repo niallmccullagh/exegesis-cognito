@@ -18,7 +18,9 @@ const idToken = {
         'administrator',
         'user'
     ],
-    'email': 'jane.@d.oe'
+    'email': 'jane.@d.oe',
+    "phone_number_verified": true,
+    "phone_number": "+441000000000",
 };
 
 const accessToken = {
@@ -100,6 +102,8 @@ describe('exegesisCognito when given', () => {
                 id: 'b3bc1aca-8f26-4sa7-9060-5d01d170cc5e',
                 email: 'jane.@d.oe',
                 email_verified: true,
+                phone_number_verified: true,
+                phone_number: "+441000000000",
                 username: 'jane.@d.oe',
                 "roles": [
                     "administrator",
