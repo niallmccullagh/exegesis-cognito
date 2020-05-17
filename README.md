@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/niallmccullagh/exegesis-cognito/badge.svg?branch=master)](https://coveralls.io/github/niallmccullagh/exegesis-cognito?branch=master)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fniallmccullagh%2Fexegesis-cognito.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fniallmccullagh%2Fexegesis-cognito?ref=badge_shield)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/niallmccullagh/exegesis-cognito.svg)](https://greenkeeper.io/)
+
 
 This package provides authentication of AWS cognito tokens in Exegesis requests.
 
